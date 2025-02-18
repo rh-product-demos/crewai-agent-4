@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: crewai-agent-4
+  description: crewai-agent-4
+  annotations:
+    backstage.io/kubernetes-id: crewai-agent-4
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=crewai-agent-4'
+    backstage.io/source-location: url:https://github.com/rh-product-demos/crewai-agent-4
+    backstage.io/techdocs-ref: .
+    github.com/project-slug: rh-product-demos/crewai-agent-4
+spec:
+  type: website
+  system: system:default/dev-cluster-services
+  lifecycle: dev
+  owner: group:default/user1
